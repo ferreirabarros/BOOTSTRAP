@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+
+    <title>Hello, world!</title>
+
+    <style>
+      /* grid é uma propriedade do bootstrap */
+      div.grid{
+        background: #ffd1c2;
+        border: 2px solid #f16234;
+        height: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- com bootstrap col forma colunas  -->
+    <div class="container">
+      <div class="row">
+        <!-- 12 colunas (col) com a as informações da class grid -->
+        <div class="col grid"></div>
+        <div class="col grid"></div>
+        <div class="col grid"></div>
+        <div class="col grid"></div>
+        <div class="col grid"></div>
+        <div class="col grid"></div>
+        <div class="col grid"></div>
+        <div class="col grid"></div>
+        <div class="col grid"></div>
+        <div class="col grid"></div>
+        <div class="col grid"></div>
+        <div class="col grid"></div>
+      </div>
+    </div>
+
+    <!-- com FLuid todas as grids ficam com largura width 100%-->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col grid"></div>
+        <div class="col grid"></div>
+        <div class="col grid"></div>
+        <div class="col grid"></div>
+        <div class="col grid"></div>
+        <div class="col grid"></div>
+        <div class="col grid"></div>
+        <div class="col grid"></div>
+        <div class="col grid"></div>
+        <div class="col grid"></div>
+        <div class="col grid"></div>
+        <div class="col grid"></div>
+      </div>
+    </div>
+      
+    <div class="container">
+      <div class="row">
+        <!-- col-12 significa uma coluna que ocupa o espaço de 12 grids  -->
+        <!-- <div class="col-12 grid"></div>
+        <div class="col-1 grid"></div>
+        <div class="col-5 grid"></div>
+        <div class="col-4 grid"></div>
+        <div class="col-2 grid"></div> -->
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <!-- sm md lg xl são breakpoint onde a largura width fica 100%-->
+        <div class="col-12 grid"></div>
+        <div class="col-sm-1 grid"></div> 
+        <!-- >= 576px -->
+        <div class="col-md-5 grid"></div> 
+        <!-- >=768px -->
+        <div class="col-lg-4 grid"></div> 
+        <!-- >=992px -->
+        <div class="col-xl-2 grid"></div> 
+         <!-- >=1200px -->
+      </div>
+    </div>
+
+
+
+
+<!-- Option 2: Separate Popper and Bootstrap JS -->   
+    <script src="./assets/js/jquery.slim.min.js"></script>
+    <script src="./assets/js/popper.min.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+  
+  </body>
+</html>
